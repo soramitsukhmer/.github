@@ -27,13 +27,14 @@ See: https://github.com/soramitsukhmer/renaming
 | label             | description                                            | color   |
 | ----------------- | ------------------------------------------------------ | ------- |
 | automation        |                                                        | #15efaa |
-| breaking-changes  | Introduce new changes that will break the application. |         |
+| breaking-changes  | Introduce new changes that will break the application. | #f9b116 |
 | build-error       |                                                        |         |
 | ci                |                                                        |         |
 | crash             |                                                        |         |
-| do-not-merge      | Request for review but [DO NOT MERGE].                 |         |
+| do-not-merge      | Request for review but [DO NOT MERGE].                 | #4b17e8 |
 | feedback          |                                                        |         |
-| in progress       |                                                        |         |
+| hotfix            | Fixed something that isn't working                     | #d73a4a |
+| in-progress       |                                                        |         |
 | installer         |                                                        |         |
 | invalid           |                                                        |         |
 | linux             | Issues that occur on Linux but not on other platforms. |         |
