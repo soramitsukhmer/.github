@@ -1,5 +1,9 @@
 # Workflow Templates
 
+You can now create workflow from [@soramitsukhmer workflow template][soramitsukhmer-github], making it easier to promote best practices and consistency across our organization.
+
+Workflow templates are defined in a [.github][soramitsukhmer-github] repository.
+
 ![workflow_templates.png](assets/workflow_templates.png)
 
 ## Using a workflow template
@@ -20,3 +24,6 @@ This procedure demonstrates how a member of your organization can find and use a
     ![actions-create-starter-workflow.png](https://docs.github.com/assets/images/help/settings/actions-create-starter-workflow.png)
 
 See: https://docs.github.com/en/free-pro-team@latest/actions/learn-github-actions/sharing-workflows-with-your-organization
+
+<!-- variables -->
+[soramitsukhmer-github]: https://github.com/soramitsukhmer/.github
