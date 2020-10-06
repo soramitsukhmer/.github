@@ -1,7 +1,9 @@
 name: Release Docker Image
+
 on:
   release:
     types: [published]
+
 jobs:
   build:
     name: Build, Tag and Push Image
