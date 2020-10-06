@@ -1,0 +1,13 @@
+{
+    "name": "Frontend: Lint and unit test",
+    "description": "Lint and unit test frontend project",
+    "iconName": "eslint-icon",
+    "categories": [
+        "Vue",
+        "JavaScript"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "yarn.lock"
+    ]
+}
