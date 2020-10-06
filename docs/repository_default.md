@@ -14,7 +14,7 @@ See: https://github.com/soramitsukhmer/renaming
 | ---------------- | ------------------------------------------ | ------- |
 | bug              | Something isn't working                    | #d73a4a |
 | documentation    | Improvements or additions to documentation | #0075ca |
-| duplicate        | This issue or pull request already exists  | #cfd3d7 |
+| duplicate        | This issue or pull request already exists  | #000000 |
 | enhancement      | New feature or request                     | #a2eeef |
 | good first issue | Good for newcomers                         | #7057ff |
 | help wanted      | Extra attention is needed                  | #008672 |
@@ -24,40 +24,40 @@ See: https://github.com/soramitsukhmer/renaming
 
 ## Additionl labels
 
-| label             | description                                            | color   |
-| ----------------- | ------------------------------------------------------ | ------- |
-| automation        |                                                        | #15efaa |
-| breaking-changes  | Introduce new changes that will break the application. | #f9b116 |
-| build-error       |                                                        |         |
-| ci                |                                                        |         |
-| crash             |                                                        |         |
-| do-not-merge      | Request for review but [DO NOT MERGE].                 | #4b17e8 |
-| feedback          |                                                        |         |
-| hotfix            | Fixed something that isn't working                     | #d73a4a |
-| in-progress       |                                                        |         |
-| installer         |                                                        |         |
-| invalid           |                                                        |         |
-| linux             | Issues that occur on Linux but not on other platforms. |         |
-| mac               | Issues that occur on macOS but not on other platforms. |         |
-| needs-review      |                                                        |         |
-| needs-testing     |                                                        |         |
-| network           |                                                        |         |
-| on-deck           |                                                        |         |
-| performance       |                                                        |         |
-| proposal          |                                                        |         |
-| qa                | Issues or PR related to quality assurance.             |         |
-| ready-to-test     | Feature or bug fixes ready to test.                    |         |
-| release           | Request to create a new release.                       |         |
-| regression        |                                                        |         |
-| requires-changes  |                                                        |         |
-| RFC               |                                                        |         |
-| security          |                                                        |         |
-| stale             |                                                        |         |
-| tracking          |                                                        |         |
-| ui                |                                                        |         |
-| uncaught-exceptio |                                                        |         |
-| under-review      |                                                        |         |
-| weekly-focus      |                                                        |         |
-| windows           |                                                        |         |
-| work-in-progress  | Weekly updates from the SoramitsuKhmer core team.      |         |
-| wrong-repo        | Issues that are filed to the wrong repository.         |         |
+| label              | description                                              | color   |
+| ------------------ | -------------------------------------------------------- | ------- |
+| automation         |                                                          | #15efaa |
+| breaking-changes   | Introduce new changes that will break the application.   | #f9b116 |
+| build-error        |                                                          | #f7c6c7 |
+| ci                 |                                                          | #aeff4c |
+| crash              |                                                          | #e11d21 |
+| do-not-merge       | Request for review but [DO NOT MERGE].                   | #4b17e8 |
+| feedback           |                                                          | #fbca04 |
+| hotfix             | Fixed something that isn't working                       | #d73a4a |
+| in-progress        |                                                          | #ededed |
+| installer          |                                                          | #fef2c0 |
+| iteration-plan     |                                                          | #b79be8 |
+| linux              | Issues that occur on Linux but not on other platforms.   | #c7def8 |
+| mac                | Issues that occur on macOS but not on other platforms.   | #c7def8 |
+| needs-review       |                                                          | #bfe5bf |
+| needs-testing      |                                                          | #bfe5bf |
+| network            |                                                          | #f7c6c7 |
+| on-deck            |                                                          | #fad8c7 |
+| performance        |                                                          | #d4c5f9 |
+| proposal           |                                                          | #c7def8 |
+| qa                 | Issues or PR related to quality assurance.               | #edd09c |
+| ready-to-test      | Feature or bug fixes ready to test.                      | #edd09c |
+| release            | Request to create a new release.                         | #2c73f7 |
+| regression         |                                                          | #b60205 |
+| requires-changes   |                                                          | #fef2c0 |
+| RFC                |                                                          | #006b75 |
+| security           |                                                          | #FF0000 |
+| stale              |                                                          | #e6e6e6 |
+| tracking           |                                                          | #bfdadc |
+| ui                 |                                                          | #99cc00 |
+| uncaught-exception |                                                          | #e11d21 |
+| under-review       |                                                          | #bfe5bf |
+| weekly-focus       | Weekly updates from the SoramitsuKhmer core team.        | #9a21ce |
+| windows            | Issues that occur on Windows but not on other platforms. | #c7def8 |
+| work-in-progress   | Weekly updates from the SoramitsuKhmer core team.        | #bfe5bf |
+| wrong-repo         | Issues that are filed to the wrong repository.           | #e6e6e6 |
