@@ -34,8 +34,8 @@ See: https://github.com/soramitsukhmer/renaming
 | ci                 |                                                          | #aeff4c |
 | crash              |                                                          | #e11d21 |
 | do-not-merge       | Request for review but [DO NOT MERGE].                   | #4b17e8 |
-| feature            | New feature or request.                                  | #fbca04 |
-| feature-request    | Issues for requesting new feature.                       | #fbca04 |
+| feature            | New feature or request.                                  | #a2eeef |
+| feature-request    | Issues for requesting new feature.                       | #a2eeef |
 | feedback           |                                                          | #fbca04 |
 | hotfix             | Fixed something that isn't working.                      | #d73a4a |
 | in-progress        |                                                          | #ededed |
