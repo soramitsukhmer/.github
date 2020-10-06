@@ -8,7 +8,9 @@ We're committed to making the renaming process as seamless as possible for proje
 
 See: https://github.com/soramitsukhmer/renaming
 
-## Default labels
+## Repository labels
+
+### Default labels
 
 | label            | description                                | color   |
 | ---------------- | ------------------------------------------ | ------- |
@@ -22,7 +24,7 @@ See: https://github.com/soramitsukhmer/renaming
 | question         | Further information is requested           | #d876e3 |
 | wontfix          | This will not be worked on                 | #ffffff |
 
-## Additionl labels
+### Additionl labels
 
 | label              | description                                              | color   |
 | ------------------ | -------------------------------------------------------- | ------- |
@@ -33,7 +35,7 @@ See: https://github.com/soramitsukhmer/renaming
 | crash              |                                                          | #e11d21 |
 | do-not-merge       | Request for review but [DO NOT MERGE].                   | #4b17e8 |
 | feedback           |                                                          | #fbca04 |
-| hotfix             | Fixed something that isn't working                       | #d73a4a |
+| hotfix             | Fixed something that isn't working.                      | #d73a4a |
 | in-progress        |                                                          | #ededed |
 | installer          |                                                          | #fef2c0 |
 | iteration-plan     |                                                          | #b79be8 |
