@@ -1,16 +1,16 @@
-# Repository Branch Template
+# Branch Settings
 
 ## Default branch
 
 The default branch is considered the “base” branch in your repository, against which all pull requests and code commits are automatically made, unless you specify a different branch.
 
-The primary default branch must be: `develop`
+The default branch must be: `develop`
 
 ## Branch Protection Rules
 
 Define branch protection rules to disable force pushing, prevent branches from being deleted, and optionally require status checks before merging.
 
-### main (previously master)
+### Branch name pattern: main (previously master)
 
 #### Protect matching branches
 
@@ -70,7 +70,7 @@ Define branch protection rules to disable force pushing, prevent branches from b
 
     Allow users with push access to delete matching branches.
 
-### develop
+### Branch name pattern: develop
 
 #### Protect matching branches
 

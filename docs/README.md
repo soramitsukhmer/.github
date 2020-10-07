@@ -2,9 +2,9 @@
 
 **Contents**:
 - Repository
-    - [Repository Branch Templates](repository_branch_template.md)
+    - [Branch Settings](repo/branch_settings.md)
 - Templates
-    - [Workflow Templates](workflow_templates.md)
-    - [Issue and Pull request Templates](issue_pr_templates.md)
+    - [Workflow Templates](templates/workflow_templates.md)
+    - [Issue and Pull request Templates](templates/issue_pr_templates.md)
 - Settings
-    - [Repository Default](repository_default.md)
+    - [Repository Default](settings/repository_default.md)
