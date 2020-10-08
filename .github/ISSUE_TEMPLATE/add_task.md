@@ -1,8 +1,8 @@
 ---
-name: Create a new Task
-about: Create a new task for this project
+name: Add Task
+about: Add a new task for this project
 title: ''
-labels: 'task,feature'
+labels: ['task', 'feature']
 assignees: ''
 
 ---
