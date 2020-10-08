@@ -54,7 +54,7 @@ See: https://github.com/soramitsukhmer/renaming
 | release            | Request to create a new release.                         | #2c73f7 |
 | regression         |                                                          | #b60205 |
 | requires-changes   |                                                          | #fef2c0 |
-| RFC                |                                                          | #006b75 |
+| RFC                | Request for Comments                                     | #006b75 |
 | security           |                                                          | #FF0000 |
 | stale              |                                                          | #e6e6e6 |
 | tracking           |                                                          | #bfdadc |
