@@ -57,6 +57,7 @@ See: https://github.com/soramitsukhmer/renaming
 | RFC                | Request for Comments                                     | #006b75 |
 | security           |                                                          | #FF0000 |
 | stale              |                                                          | #e6e6e6 |
+| task               | Add a new task                                           | #a2eeef |
 | tracking           |                                                          | #bfdadc |
 | ui                 |                                                          | #99cc00 |
 | uncaught-exception |                                                          | #e11d21 |
