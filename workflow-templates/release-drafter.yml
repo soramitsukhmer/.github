@@ -10,19 +10,7 @@ jobs:
     name: Draft a release
     runs-on: ubuntu-latest
     steps:
-      - name: Create a pre-release draft
-        if: github.ref == 'refs/heads/develop'
-        uses: release-drafter/release-drafter@v5
-        with:
-          name: prerelease-drafter.yml
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
       - name: Create a release draft
-        if:
-          contains('
-            refs/heads/main
-            refs/heads/master
-          ', github.ref)
         uses: release-drafter/release-drafter@v5
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
