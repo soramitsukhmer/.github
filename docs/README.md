@@ -9,7 +9,7 @@ Workflow are shared across entire @soramitsukhmer organization.
 
 Some workflow required additional configurations.
 
-**Configuratins**
+**Global**
 
 - [Release Drafter](https://github.com/release-drafter/release-drafter#readme)
     - Template: [workflow-templates/release-drafter.yml](https://github.com/soramitsukhmer/.github/blob/main/workflow-templates/release-drafter.yml)
