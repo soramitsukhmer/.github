@@ -25,9 +25,9 @@ If applicable, add screenshots to help explain your problem.
 
 **Platform (please complete the following information):**
 
--   Browser [e.g. chrome, safari]
--   Version [e.g. 1.0.0]
--   Service [e.g. auth-service]
+- Browser [e.g. chrome, safari]
+- Version [e.g. 1.0.0]
+- Service [e.g. auth-service]
 
 **Additional context**
 Add any other context about the problem here.
