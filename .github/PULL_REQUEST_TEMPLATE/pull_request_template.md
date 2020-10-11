@@ -5,8 +5,8 @@ The purpose of the pull request.
 Links to any open tickets, tasks and sub-tasks from Jira or ClickUp.
 
 - [ ] Example Task 1
-    - [ ] Example Sub-task 1
-    - [ ] Example Sub-task 2
+  - [ ] Example Sub-task 1
+  - [ ] Example Sub-task 2
 
 **Reviewers**
 Tag your reviewers here.
