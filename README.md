@@ -1,6 +1,6 @@
-# .github
+# @soramitsukhmer/.github
 
-Default metadata files across all repos in the @soramitsukhmer organization
+Default metadata files across all repos in the @soramitsukhmer organization.
 
 ## 🚨 WARNING 🚨
 
