@@ -6,14 +6,30 @@ labels: "feature-request"
 assignees: ""
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**Describe**
+The purpose of the task
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**Condition**
+- _**Pre-condition**:_
+- _**Post-condition**:_ 
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**Main Flow**
+Main success scenario of the use cases
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**Alternative Flow**
+Step or a sequence of steps that achieves the use case’s goal following different steps than described in the main success scenario
+
+**Exception Flow**
+Anything that leads to NOT achieving the use case’s goal.
+
+**Validation**
+Validation condition(s)
+
+**UI**
+Any screenshot(s)
+
+**Task**
+List of task to be implemented
+
+**Reviewers**
+Tag your reviewers here.
