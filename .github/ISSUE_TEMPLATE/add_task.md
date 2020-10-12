@@ -6,15 +6,27 @@ labels: task, feature
 assignees: ""
 ---
 
-**Describe the task**
+**Describe**
 The purpose of the pull request.
 
-**Ticket(s)**
-Links to any open tickets, tasks and sub-tasks from Jira or ClickUp.
+**Condition**
+- _**Pre-condition**:_
+- _**Post-condition**:_ 
 
-- [ ] Example Task 1
-  - [ ] Example Sub-task 1
-  - [ ] Example Sub-task 2
+**Main Flow**
+Main success scenario of the use cases
+
+**Alternative Flow**
+Step or a sequence of steps that achieves the use case’s goal following different steps than described in the main success scenario
+
+**Exception Flow**
+Anything that leads to NOT achieving the use case’s goal.
+
+**Validation**
+Validation condition(s)
+
+**Screenshot**
+Any screenshot(s)
 
 **Reviewers**
 Tag your reviewers here.
