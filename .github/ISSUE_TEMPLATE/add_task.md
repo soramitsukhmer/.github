@@ -7,7 +7,7 @@ assignees: ""
 ---
 
 **Describe**
-The purpose of the pull request.
+The purpose of the task
 
 **Condition**
 - _**Pre-condition**:_
