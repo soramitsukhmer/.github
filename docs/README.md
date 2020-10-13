@@ -3,6 +3,7 @@
 **Contents**
 
 - [Issue templates](#issue-templates)
+- [Pull request templates](#pull-request-templates)
 - [Workflows](#workflows)
 
 ## Issue templates
@@ -11,7 +12,7 @@
 - [Bug report](../.github/ISSUE_TEMPLATE/bug_report.md)
 - [Feature request](../.github/ISSUE_TEMPLATE/feature_request.md)
 
-## Pull request tempaltes
+## Pull request templates
 
 - [Default Template](../.github/PULL_REQUEST_TEMPLATE/pull_request_template.md)
 
