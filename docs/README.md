@@ -19,8 +19,7 @@
 ## Workflows
 
 Workflows are shared across entire @soramitsukhmer organization.
-
-> Some workflows required additional configurations.
+Some workflows required additional configurations.
 
 **Organization workflows**
 
