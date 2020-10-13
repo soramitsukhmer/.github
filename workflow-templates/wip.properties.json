@@ -1,0 +1,7 @@
+{
+  "name": "WIP",
+  "description": "Sets a pull request status to pending if the title includes 'WIP'",
+  "iconName": "robot-icon",
+  "categories": [],
+  "filePatterns": []
+}
