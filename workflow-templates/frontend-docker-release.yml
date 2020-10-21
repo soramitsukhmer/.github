@@ -29,7 +29,10 @@ jobs:
       with:
         context: .
         push: true
-        build-args: NODE_ENV=development,VUE_APP_VERSION=${{ github.event.release.tag_name }},VUE_APP_GIT_SHA=${{ github.sha }}
+        build-args: |
+          NODE_ENV=development
+          VUE_APP_VERSION=${{ github.event.release.tag_name }}
+          VUE_APP_GIT_SHA=${{ github.sha }}
         tags: |
           ${{ secrets.AWS_ECR_REGISTRY }}/${{ secrets.ECR_REPOSITORY }}:dev-latest
           ${{ secrets.AWS_ECR_REGISTRY }}/${{ secrets.ECR_REPOSITORY }}:${{ github.event.release.tag_name }}
@@ -41,7 +44,10 @@ jobs:
       with:
         context: .
         push: true
-        build-args: NODE_ENV=production,VUE_APP_VERSION=${{ github.event.release.tag_name }},VUE_APP_GIT_SHA=${{ github.sha }}
+        build-args: |
+          NODE_ENV=production
+          VUE_APP_VERSION=${{ github.event.release.tag_name }}
+          VUE_APP_GIT_SHA=${{ github.sha }}
         tags: |
           ${{ secrets.AWS_ECR_REGISTRY }}/${{ secrets.ECR_REPOSITORY }}:latest
           ${{ secrets.AWS_ECR_REGISTRY }}/${{ secrets.ECR_REPOSITORY }}:${{ github.event.release.tag_name }}
