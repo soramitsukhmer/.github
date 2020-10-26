@@ -29,5 +29,6 @@ jobs:
         with:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TELEGRAM_TOKEN }}
-          args: "**${{github.repository}}**: Release **${{ github.event.release.tag_name }}** published by **${{github.actor}}**"
+          format: markdown
+          message: "**${{github.repository}}**: Release **${{ github.event.release.tag_name }}** published by **${{github.actor}}**"
 ```
