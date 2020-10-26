@@ -24,6 +24,8 @@ Some workflows required additional configurations.
 **Organization workflows**
 
 - [Release Drafter](release-drafter.md)
+- [Send message to Telegram](send-message-to-telegram.md)
+- [CD (continuous delivery/continuous deployment)](continuous-deployment.md)
 
 **Frontend workflows**
 
