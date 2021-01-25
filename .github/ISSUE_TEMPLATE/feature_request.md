@@ -6,7 +6,7 @@ labels: "feature-request"
 assignees: ""
 ---
 
-**Describe**
+**Description**
 The purpose of the task
 
 **Condition**
