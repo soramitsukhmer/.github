@@ -1,0 +1,14 @@
+{
+  "name": "Frontend: End-to-end tests",
+  "description": "End-to-end tests with Cypress",
+  "iconName": "cypress-icon",
+  "categories": [
+    "Vue",
+    "JavaScript"
+  ],
+  "filePatterns": [
+    "package.json$",
+    "yarn.lock",
+    "cypress.json"
+  ]
+}
