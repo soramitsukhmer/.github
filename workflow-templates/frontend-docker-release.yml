@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     name: Build, Tag and Push Image
-    runs-on: self-hosted
+    runs-on: [self-hosted, linux, x64]
     steps:
     - name: Checkout
       uses: actions/checkout@v2

@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   e2e-run:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux, x64]
     name: E2E on Chrome
     strategy:
       matrix:

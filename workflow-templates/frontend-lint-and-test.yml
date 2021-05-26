@@ -9,7 +9,7 @@ on:
 jobs:
   test:
     name: Run lint and unit test
-    runs-on: self-hosted
+    runs-on: [self-hosted, linux, x64]
     env:
       CI: true
     strategy:
