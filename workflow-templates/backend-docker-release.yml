@@ -1,0 +1,63 @@
+name: Release Docker Image
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build:
+    name: Build, Tag and Push Image
+    runs-on: [self-hosted, linux, x64]
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Login to AmazonECR
+      uses: docker/login-action@v1
+      with:
+        registry: ${{ secrets.AWS_ECR_REGISTRY }}
+        username: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        password: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+    # Build jar --------------------
+    - uses: actions/setup-java@v1
+      with:
+        java-version: '11'
+    - name: Build jar
+      run: ./gradlew build -Pversion=${{ github.event.release.tag_name }}
+    - # Development --------------------
+      name: "Development: Build and Tag Image"
+      if: "github.event.release.prerelease"
+      uses: docker/build-push-action@v2
+      with:
+        context: .
+        load: true
+        build-args: |
+          APP_NAME=${{ secrets.ECR_REPOSITORY }}
+          APP_VERSION=${{ github.event.release.tag_name }}
+        tags: |
+          ${{ secrets.AWS_ECR_REGISTRY }}/${{ secrets.ECR_REPOSITORY }}:dev-latest
+          ${{ secrets.AWS_ECR_REGISTRY }}/${{ secrets.ECR_REPOSITORY }}:${{ github.event.release.tag_name }}
+    - name: "Development: Push Image"
+      if: "github.event.release.prerelease"
+      run: |
+        docker push ${{ secrets.AWS_ECR_REGISTRY }}/${{ secrets.ECR_REPOSITORY }}:dev-latest
+        docker push ${{ secrets.AWS_ECR_REGISTRY }}/${{ secrets.ECR_REPOSITORY }}:${{ github.event.release.tag_name }}
+    - # Production --------------------
+      name: "Production: Build and Tag Image"
+      if: "!github.event.release.prerelease"
+      uses: docker/build-push-action@v2
+      with:
+        context: .
+        load: true
+        build-args: |
+          APP_NAME=${{ secrets.ECR_REPOSITORY }}
+          APP_VERSION=${{ github.event.release.tag_name }}
+        tags: |
+          ${{ secrets.AWS_ECR_REGISTRY }}/${{ secrets.ECR_REPOSITORY }}:latest
+          ${{ secrets.AWS_ECR_REGISTRY }}/${{ secrets.ECR_REPOSITORY }}:dev-latest
+          ${{ secrets.AWS_ECR_REGISTRY }}/${{ secrets.ECR_REPOSITORY }}:${{ github.event.release.tag_name }}
+    - name: "Production: Push Image"
+      if: "!github.event.release.prerelease"
+      run: |
+        docker push ${{ secrets.AWS_ECR_REGISTRY }}/${{ secrets.ECR_REPOSITORY }}:latest
+        docker push ${{ secrets.AWS_ECR_REGISTRY }}/${{ secrets.ECR_REPOSITORY }}:dev-latest
+        docker push ${{ secrets.AWS_ECR_REGISTRY }}/${{ secrets.ECR_REPOSITORY }}:${{ github.event.release.tag_name }}

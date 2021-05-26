@@ -1,0 +1,13 @@
+{
+  "name": "Backend: Release Docker Image",
+  "description": "Build, Tag and Push Docker Image",
+  "iconName": "docker-icon",
+  "categories": [
+    "Java",
+    "Kotlin"
+  ],
+  "filePatterns": [
+    "build.gradle.kts",
+    "gradle.properties"
+  ]
+}
