@@ -21,7 +21,7 @@ jobs:
 
   notify:
       name: Notify to Telegram
-      runs-on: self-hosted
+      runs-on: [self-hosted, linux, x64]
       needs: [build]
       steps:
       - name: Release notification
