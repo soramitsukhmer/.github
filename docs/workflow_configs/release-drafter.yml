@@ -32,3 +32,5 @@ template: |
   ## Changelog
 
   $CHANGES
+no-changes-template: |
+  * Bug fixes and performance improvements.
