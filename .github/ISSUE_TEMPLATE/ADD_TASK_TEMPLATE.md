@@ -1,7 +1,7 @@
 ---
 name: Add Task
 about: Add a new task for this project
-title: ""
+title: "[TASK] <title>"
 labels: task, feature
 assignees: ""
 ---
