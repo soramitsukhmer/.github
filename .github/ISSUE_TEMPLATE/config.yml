@@ -1,1 +1,8 @@
 blank_issues_enabled: true
+contact_links:
+  - name: Soramitsu Khmer Support
+    url: https://soramitsukhmer.com/
+    about: Please ask and answer questions here.
+  - name: Soramitsu Khmer Security
+    url: https://soramitsukhmer.com/
+    about: Please report security vulnerabilities here.
