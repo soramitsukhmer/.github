@@ -1,7 +1,7 @@
 {
   "name": "Frontend: Release Docker Image",
   "description": "Build, Tag and Push Docker Image",
-  "iconName": "docker-icon",
+  "iconName": "icon-docker",
   "categories": [
     "Vue",
     "JavaScript"

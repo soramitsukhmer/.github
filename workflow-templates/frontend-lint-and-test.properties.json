@@ -1,7 +1,7 @@
 {
   "name": "Frontend: Lint and unit test",
   "description": "Lint and unit test frontend project",
-  "iconName": "eslint-icon",
+  "iconName": "icon-eslint",
   "categories": [
     "Vue",
     "JavaScript"
